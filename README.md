@@ -1,6 +1,6 @@
 # Uber-Eats
 
-This is custom made clone of UberEats page for HTML and CSS practice.
+This is custom-made clone of UberEats page for HTML and CSS practice.
 
 TODO:
 - add single restaurant pages
