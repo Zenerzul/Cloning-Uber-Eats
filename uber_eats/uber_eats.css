@@ -1,0 +1,116 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+hr {
+  background-color: #ffffff;
+  opacity: 0.4;
+  height: 1px;
+  width: 100%;
+}
+.row {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  display: flexbox;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 0px 0px 30px grey;
+}
+
+header .logo-main {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 5px;
+  float: left;
+}
+.container-main {
+  width: 150px;
+  float: right;
+  padding-top: 1.2rem;
+}
+.container-main button {
+  float: left;
+  clear: both;
+}
+.container-main .logo-basket {
+  float: right;
+}
+
+.icon {
+  align-self: flex-end;
+  margin-left: 1100px;
+  position: fixed;
+}
+.arrow {
+  padding: 20px 25px;
+}
+
+.row-first {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.row-first .col {
+  max-width: 50%;
+}
+
+footer {
+  background-color: #262626;
+  color: #ffffff;
+}
+footer .logo-secondary {
+  float: left;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.row-footer-upper {
+  display: inline-box;
+}
+.row-footer-medium .col {
+  display: flex;
+  justify-content: center;
+}
+.row-footer-medium .col figure {
+  margin: 40px 20px 35px;
+}
+.row-footer-down .col {
+  padding: 30px;
+}
+
+.row-first .card:hover {
+  zoom: 1;
+}
+@media screen and (max-width: 568px) {
+  .row-first .col {
+    max-width: 100%;
+  }
+  .logo-basket {
+    display: none;
+  }
+  .container-main button {
+    float: right;
+  }
+  .row-footer {
+    display: inline;
+  }
+}
